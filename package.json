@@ -1,0 +1,48 @@
+{
+  "name": "romanfirst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inho123/RomanFIrst.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inho123/RomanFIrst/issues"
+  },
+  "homepage": "https://github.com/Inho123/RomanFIrst#readme",
+  "dependencies": {
+    "@types/node-schedule": "^2.1.0",
+    "@types/nodemailer": "^6.4.6",
+    "axios": "^1.1.3",
+    "cors": "2.8.5",
+    "ejs": "3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "firebase-admin": "^11.3.0",
+    "method-override": "3.0.0",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "mysql2": "2.2.5",
+    "node-schedule": "^2.1.0",
+    "nodemailer": "^6.7.7",
+    "nodemon": "2.0.7",
+    "nunjucks": "^3.2.3",
+    "pm2": "4.5.1",
+    "qs": "^6.11.0",
+    "request": "^2.88.2",
+    "sequelize": "6.5.0",
+    "session": "^0.1.0",
+    "sha256": "0.2.0",
+    "socket.io": "^4.5.4",
+    "urlencode": "^1.1.0"
+  },
+  "devDependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
